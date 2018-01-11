@@ -1,0 +1,89 @@
+
+.navbar {
+    background: transparent;
+    border-color: transparent;
+}
+
+html, body {
+    height: 100%;
+    background: #222 url("../assets/imgs/background.jpg") fixed top center no-repeat;
+    background-size: cover;
+}
+
+#cover {
+    height: 100%;
+    color: white;
+    align-items: center;
+}
+
+#skills_section {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    padding: 4%;
+}
+
+#education_section {
+    height: 80%;
+    display: flex;
+    background-color: white;
+    opacity: 0.6;
+}
+
+
+.section_titles {
+    color: black;
+    text-align: center;
+}
+
+.skills_thumbnails {
+    height: 100px;
+    width: 150px;
+}
+
+
+.button:hover {
+    background-color: white;
+}
+
+#about_me {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 5rem 1rem 2rem 0;
+    padding: 2rem;
+}
+
+i {
+    color: white;
+    font-size: 50px;
+}
+
+.card {
+    margin: 1rem;
+    padding: 0;
+    background: white;
+    opacity: 0.8;
+}
+
+#icons {
+    margin-right: 5%;
+    color: black;
+    font-size: larger;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
