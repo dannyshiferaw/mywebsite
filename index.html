@@ -17,8 +17,8 @@
 </head>
 <body>
 
-    <section id="cover" class="container-fluid">
-        <div id="about_me" class="col-md-4 float-right border-0">
+    <section id="cover" class="container-fluid justify-content-end">
+        <div id="about_me" class="col-md-4 border-0">
             <p class="display-3"> About me </p>
             <p class="lead text-justify"> A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
                             contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels,
@@ -40,80 +40,200 @@
 
     </section>
 
-    <section id="education_section" class="container">
-
-    </section>
-
-    <section id="skills_section" class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <p class="display-3"> Technical Skills </p>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">Java</h3>
-                    <h6 class="card-subtitle"> Skill level: Advanced</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">Python</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">MySQL</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">HTML5</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">CSS3</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">Bootstrap4</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">Javascript</h3>
-                    <h6 class="card-subtitle"> Skill level: Beginner</h6>
-                </div>
-            </div>
-            <div class="card col-sm-3 border-0">
-                <img class="card-img-top img-fluid" src="assets/imgs/skills_thumbnail.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-title">Spring Framework</h3>
-                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+    <section id="education_section" class="container-fluid">
+        <div class="container">
+            <div id="carousel_info" class="carousel slide justify-content-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#education_section" data-slide-to="0" class="active"></li>
+                    <li data-target="#education_section" data-slide-to="1"></li>
+                    <li data-target="#education_section" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="display-4 carousel_info_titles"> Education </p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="lead carousel_info_details text-justify">
+                                    <b> UC Berkeley, 2016 - 2020</b> <br>
+                                    I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                                    Just click “Edit Text” or double click me to add your own content and
+                                    make changes to the font. Feel free to drag and drop me anywhere you
+                                    like on your page. I’m a great place for you to tell a story and let
+                                    your users know a little more about you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="display-4 carousel_info_titles"> Experience </p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="lead carousel_info_details text-justify">
+                                    <b> UC Berkeley, 2016 - 2020</b> <br>
+                                    I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                                    Just click “Edit Text” or double click me to add your own content and
+                                    make changes to the font. Feel free to drag and drop me anywhere you
+                                    like on your page. I’m a great place for you to tell a story and let
+                                    your users know a little more about you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="display-4 carousel_info_titles"> Hobbies & Interests</p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="lead carousel_info_details text-justify">
+                                    <b> UC Berkeley, 2016 - 2020</b> <br>
+                                    I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                                    Just click “Edit Text” or double click me to add your own content and
+                                    make changes to the font. Feel free to drag and drop me anywhere you
+                                    like on your page. I’m a great place for you to tell a story and let
+                                    your users know a little more about you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="container-fluid">
-
+    <section id="skills_section" class="container">
+        <div id = "skills_card" class="row">
+            <div class="col-12">
+                <p id="tech_skills" class="display-4"> Technical Skills </p>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> Java </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> Python </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> MySQL </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> HTML5 </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> CSS3 </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> Javascript </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="30" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> Bootstrap4 </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="lead skills_title"> Spring Framework </p>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-
+    <section id="projects_section" class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <p class="display-3"> Projects </p>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Java</h3>
+                    <h6 class="card-subtitle"> Skill level: Advanced</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Python</h3>
+                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">MySQL</h3>
+                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">HTML5</h3>
+                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">CSS3</h3>
+                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-sm-3 border-0">
+                <img class="card-img-top img-fluid" src="assets/imgs/replace.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Bootstrap4</h3>
+                    <h6 class="card-subtitle"> Skill level: Intermediate</h6>
+                    <p class="card-text">
+                        A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content,
+                        contextual background colors, and powerful display options.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -10,26 +10,72 @@ html, body {
     background-size: cover;
 }
 
+img {
+    height: 50%;
+    width: 50%;
+}
+
+.progress {
+    height: 3px;
+}
+
 #cover {
     height: 100%;
     color: white;
     align-items: center;
+    display: flex;
+}
+
+#about_me {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 5rem 1rem 2rem 0;
+    padding: 2rem;
+    height: auto;
 }
 
 #skills_section {
-    height: 100%;
-    text-align: center;
+    height: 80%;
     display: flex;
     padding: 4%;
 }
 
-#education_section {
-    height: 80%;
+#skills_card {
+    background: rgba(0,0,0,0.8);
+    height: auto;
     display: flex;
-    background-color: white;
-    opacity: 0.6;
+    padding: 2rem;
 }
 
+#education_section {
+    height: auto;
+    display: flex;
+    background-color: white;
+    color: black;
+}
+
+
+.carousel_info_titles {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: red solid 6px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #999;
+    background-color: rgba(70,70,70,.25);
+    margin-top: 2rem;
+}
+
+.carousel-indicators {
+
+}
+
+.carousel_info_details {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
 
 .section_titles {
     color: black;
@@ -41,16 +87,28 @@ html, body {
     width: 150px;
 }
 
+#projects_section {
+    height: 100%;
+    text-align: center;
+}
+
+
+#tech_skills {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.skills_title {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
 
 .button:hover {
     background-color: white;
 }
 
-#about_me {
-    background: rgba(0, 0, 0, 0.6);
-    margin: 5rem 1rem 2rem 0;
-    padding: 2rem;
-}
 
 i {
     color: white;
@@ -61,7 +119,7 @@ i {
     margin: 1rem;
     padding: 0;
     background: white;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #icons {
