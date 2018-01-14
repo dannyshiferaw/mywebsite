@@ -6,6 +6,7 @@
 
 html, body {
     height: 100%;
+    width: 100%;
     background: #222 url("../assets/imgs/background.jpg") fixed top center no-repeat;
     background-size: cover;
 }
@@ -19,6 +20,27 @@ img {
     height: 3px;
 }
 
+.card {
+    margin: 1rem;
+    padding: 0;
+    background: white;
+    opacity: 0.9;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-text {
+    word-wrap: break-word;
+}
+
+.card-img-top {
+
+}
+
 #cover {
     height: 100%;
     color: white;
@@ -28,9 +50,12 @@ img {
 
 #about_me {
     background: rgba(0, 0, 0, 0.6);
-    margin: 5rem 1rem 2rem 0;
     padding: 2rem;
     height: auto;
+    width: auto;
+    overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #skills_section {
@@ -53,30 +78,51 @@ img {
     color: black;
 }
 
+#projects_section {
+    height: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+
+#contact_section {
+    height: auto;
+    padding: 2rem;
+    background: white;
+}
+
+#horizontal_scroll {
+    height: auto;
+    overflow: scroll;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
 
 .carousel_info_titles {
     margin-top: 4rem;
-    padding: 2rem;
     text-align: center;
     border-bottom: red solid 6px;
 }
 
-.carousel-control-prev-icon {
-    background-color: #999;
-    background-color: rgba(70,70,70,.25);
-    margin-top: 2rem;
-}
-
-.carousel-indicators {
-
-}
-
 .carousel_info_details {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
+.carousel-control-prev-icon {
+    background: black;
+}
+.carousel-control-next-icon {
+    background: black;
+}
+.carousel-inner {
+    padding: 1rem;
+}
+.carousel-indicators {
+    margin: 1rem;
+}
 .section_titles {
     color: black;
     text-align: center;
@@ -85,11 +131,6 @@ img {
 .skills_thumbnails {
     height: 100px;
     width: 150px;
-}
-
-#projects_section {
-    height: 100%;
-    text-align: center;
 }
 
 
@@ -115,12 +156,6 @@ i {
     font-size: 50px;
 }
 
-.card {
-    margin: 1rem;
-    padding: 0;
-    background: white;
-    opacity: 0.9;
-}
 
 #icons {
     margin-right: 5%;
@@ -140,6 +175,19 @@ i {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+#education_section .fa {
+    color: black;
+    font-size: 40px;
+    margin: 0;
+}
+
+#social_media .fa {
+    color: black;
+    width: 10px;
+    margin: 5px 2px;
+    font-size: 30px;
 }
 
 
