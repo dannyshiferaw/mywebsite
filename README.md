@@ -1,5 +1,1 @@
-
-# dannyshiferaw.github.io 
-
-# This is my personal webiste. 
-# I developed it using Bootstrap 4
+This is my personal website I am currently developing using Bootstrap 4. 
