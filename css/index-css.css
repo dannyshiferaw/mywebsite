@@ -1,9 +1,4 @@
 
-.navbar {
-    background: transparent;
-    border-color: transparent;
-}
-
 html, body {
     height: 100%;
     width: 100%;
@@ -11,36 +6,7 @@ html, body {
     background-size: cover;
 }
 
-img {
-    height: 50%;
-    width: 50%;
-}
-
-.progress {
-    height: 3px;
-}
-
-.card {
-    margin: 1rem;
-    padding: 0;
-    background: white;
-    opacity: 0.9;
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.card-body {
-    padding: 1rem;
-}
-
-.card-text {
-    word-wrap: break-word;
-}
-
-.card-img-top {
-
-}
-
+/* Cover: First Section */
 #cover {
     height: 100%;
     color: white;
@@ -58,48 +24,13 @@ img {
     max-height: 100%;
 }
 
-#skills_section {
-    height: 80%;
-    display: flex;
-    padding: 4%;
-}
-
-#skills_card {
-    background: rgba(0,0,0,0.8);
-    height: auto;
-    display: flex;
-    padding: 2rem;
-}
-
+/* Education Section: Second Section */
 #education_section {
     height: auto;
     display: flex;
     background-color: white;
     color: black;
 }
-
-#projects_section {
-    height: auto;
-    text-align: center;
-    padding: 6rem;
-}
-
-
-#contact_section {
-    height: auto;
-    padding: 2rem;
-    background: white;
-}
-
-#horizontal_scroll {
-    height: auto;
-    overflow: scroll;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    display: inline-block;
-    padding-bottom: 1rem;
-}
-
 .carousel_info_titles {
     margin-top: 4rem;
     text-align: center;
@@ -123,8 +54,67 @@ img {
 .carousel-indicators {
     margin: 1rem;
 }
-.section_titles {
-    color: black;
+
+/** adjust the height of bar in skills section */
+.progress {
+    height: 3px;
+}
+
+/** Projects display card */
+.card {
+    margin: 1rem;
+    padding: 0;
+    background: white;
+    opacity: 0.9;
+    overflow: hidden;
+}
+.card-body {
+    padding: 1rem;
+}
+.card-text {
+    word-wrap: break-word;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+}
+
+
+#skills_section {
+    height: 80%;
+    display: flex;
+    padding: 4%;
+}
+
+#skills_card {
+    background: rgba(0,0,0,0.8);
+    height: auto;
+    display: flex;
+    padding: 2rem;
+    overflow: scroll;
+}
+
+
+#projects_section {
+    height: auto;
+}
+
+#projects {
+    text-align: center;
+    overflow: scroll;
+    padding: 3rem;
+}
+
+
+#contact_section {
+    height: auto;
+    padding: 2rem;
+    background: white;
+}
+
+
+.section_title {
+    color: white;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -133,12 +123,6 @@ img {
     width: 150px;
 }
 
-
-#tech_skills {
-    color: white;
-    text-align: center;
-    margin-top: 1rem;
-}
 
 .skills_title {
     color: white;
