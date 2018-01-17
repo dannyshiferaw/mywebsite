@@ -6,6 +6,11 @@ html, body {
     background-size: cover;
 }
 
+/* Jumbotron */
+.jumbotron {
+    opacity: 0.8;
+}
+
 /* Cover: First Section */
 #cover {
     height: 100%;
@@ -76,6 +81,11 @@ html, body {
     height: auto;
     width: auto;
     padding: 1rem;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px grey;
+    animation: bounce 1s;
 }
 
 
@@ -173,6 +183,25 @@ i {
     margin: 5px 2px;
     font-size: 30px;
 }
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
 
 
 
